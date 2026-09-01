@@ -126,7 +126,8 @@ a { color: inherit; }
   background-color: #071018;
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.14), rgba(0, 0, 0, 0.2)),
-    url("assets/angular-surveys-hero.svg");
+  /*  url("assets/angular-surveys-hero.svg"); */
+    url("assets/v2.png");  
   background-position: center;
   background-size: cover;
 }
