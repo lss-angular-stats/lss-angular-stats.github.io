@@ -179,7 +179,7 @@ h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; }
 
 .rationale {
   padding: 65px 0 54px;
-  text-align: center;
+  text-align: justify;
 }
 
 .rationale h2 {
@@ -199,7 +199,7 @@ h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; }
 
 .organizers {
   padding: 0 0 62px;
-  text-align: center;
+  text-align: left;
 }
 
 .organizers h2 {
@@ -209,7 +209,7 @@ h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; }
   line-height: 1.2;
 }
 
-.organizer-list {
+/*.organizer-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -218,6 +218,12 @@ h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; }
   padding: 0;
   list-style: none;
   font-size: 17px;
+}*/
+
+.organizer-list {
+  margin: 0;
+  padding-left: 22px;
+  list-style-type: square;
 }
 
 .organizer-list li:not(:last-child)::after {
