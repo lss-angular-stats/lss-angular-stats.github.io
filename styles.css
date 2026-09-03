@@ -228,9 +228,10 @@ h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; }
 }
 
 .organizer-list li:not(:last-child)::after {
-  margin: 0 16px;
-  color: #888;
-  content: "·";
+/*  margin: 0 16px;
+  color: #888; 
+  content: "·"; */
+  content: none;
 }
 
 .page-content {
